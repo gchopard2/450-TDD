@@ -11,12 +11,12 @@ class StringCalculator :
                 sum += number
         return sum
     def substract(numbers):
-        sub = 0
-        if (";" in numbers) :
-            sub = 1
+        parts = numbers.split(';')
         try :
-            sub = int(numbers)
+            sub = int(parts[0])
         except ValueError :
-            pass
+            sub = 0
+        for part in parts[1:] :
+            sub = int(sub) - int(part)
         return sub
             

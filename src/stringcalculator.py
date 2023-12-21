@@ -10,3 +10,5 @@ class StringCalculator :
             if number <= 1000 :
                 sum += number
         return sum
+
+

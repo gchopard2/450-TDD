@@ -11,6 +11,7 @@ class StringCalculator :
                 sum += number
         return sum
     def substract(numbers):
-        if (numbers == "5") :
-            return 5
-        return 0
+        try :
+            return int(numbers)
+        except ValueError :
+            return 0

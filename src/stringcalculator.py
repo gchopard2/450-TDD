@@ -13,5 +13,3 @@ class StringCalculator :
 
     def multiply(numbers):
         return 0
-
-

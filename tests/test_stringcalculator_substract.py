@@ -1,10 +1,13 @@
 from src.stringcalculator import StringCalculator
 import pytest
 
-def test_substract_param_vide_return_zero():
+@pytest.mark.parametrize("mon_param, mon_resultat", [
+    ("", 0), # test case 1
+])
+def test_substract_plusieursNombres(mon_param, mon_resultat):
     # Arrange
-    mon_param = ""
-    mon_resultat = 0
+    mon_param = mon_param
+    mon_resultat = mon_resultat
     # Act
     result = StringCalculator.substract(mon_param)
     # Assert

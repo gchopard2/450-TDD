@@ -2,7 +2,7 @@ from src.stringcalculator import StringCalculator
 import pytest
 
 
-def test_multiply():
+def test_multiply_return_0():
     # arrange
     mon_param = ""
     mon_result = 0

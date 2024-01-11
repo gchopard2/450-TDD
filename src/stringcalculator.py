@@ -12,18 +12,18 @@ class StringCalculator :
         return sum
     def substract(numbers):
         parts = numbers.split(';')
-        try :
-            sub = int(parts[0])
-        except ValueError :
-            sub = 0
-        for part in parts[1:] :
+        sub = None
+        for part in parts :
             try :
                 part = int(part)
                 if part > 1000 :
                     part = 0
             except ValueError :
                 part = 0
-            sub = sub - part
+            if sub is None :
+                sub = part
+            else :
+                sub = sub - part
         return sub
 
 

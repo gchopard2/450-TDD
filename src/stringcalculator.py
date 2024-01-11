@@ -21,7 +21,7 @@ class StringCalculator :
                 part = int(part)
             except ValueError :
                 part = 0
-            sub = int(sub) - int(part)
+            sub = sub - part
         return sub
 
 

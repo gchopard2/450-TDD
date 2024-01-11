@@ -15,7 +15,7 @@ class StringCalculator :
         sub = None
         for part in parts :
             try :
-                part = int(part)
+                part = float(part)
                 if part > 1000 :
                     part = 0
             except ValueError :

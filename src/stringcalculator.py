@@ -17,6 +17,10 @@ class StringCalculator :
         except ValueError :
             sub = 0
         for part in parts[1:] :
+            try :
+                part = int(part)
+            except ValueError :
+                part = 0
             sub = int(sub) - int(part)
         return sub
 

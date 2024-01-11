@@ -19,6 +19,8 @@ class StringCalculator :
         for part in parts[1:] :
             try :
                 part = int(part)
+                if part > 1000 :
+                    part = 0
             except ValueError :
                 part = 0
             sub = sub - part

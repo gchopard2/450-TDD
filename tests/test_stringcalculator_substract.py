@@ -7,6 +7,7 @@ import pytest
     ("8;7", 1), # test case 3
     ("8;NOTANUMBER", 8), # test case 4
     ("102;1002", 102), # test case 5
+    ("0.3;0.2", 0.09999999999999998), # test case 6
 ])
 def test_substract_plusieursNombres(mon_param, mon_resultat):
     # Arrange

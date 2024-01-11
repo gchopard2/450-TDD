@@ -6,6 +6,7 @@ import pytest
     ("5", 5), # test case 2
     ("8;7", 1), # test case 3
     ("8;NOTANUMBER", 8), # test case 4
+    ("102;1002", 102), # test case 5
 ])
 def test_substract_plusieursNombres(mon_param, mon_resultat):
     # Arrange

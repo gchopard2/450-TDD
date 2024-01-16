@@ -1,11 +1,16 @@
 from src.stringcalculator import StringCalculator
 import pytest
 
+@pytest.mark.parametrize("mon_param, mon_resultat", [
+    ("", 0), # test case 1
+    ("5", 5), # test case 2
+    ("8;7", 56), # test case 3
+])
 
-def test_multiply_param_7_8_return_56():
+def test_multiply_param_7_8_return_56(mon_param, mon_resultat):
     # Arrange
-    mon_param = "7;8"
-    mon_resultat = 56
+    mon_param = mon_param
+    mon_resultat = mon_resultat
     # Act
     result = StringCalculator.multiply(mon_param)
     # Assert

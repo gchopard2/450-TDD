@@ -22,13 +22,11 @@ class StringCalculator :
         return sub
 
     def multiply(numbers):
-        mult = 0
-        if ';' in numbers:
-            mult = 56
-        else:
-            try:
-                mult = int(numbers)
-            except ValueError:
-                pass  # Do nothing if a ValueError occurs
-
+        parts = numbers.split(';')
+        try :
+            mult = int(parts[0])
+        except ValueError :
+            mult = 0
+        for part in parts[1:] :
+            mult = int(mult) * int(part)
         return mult

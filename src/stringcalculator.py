@@ -10,6 +10,7 @@ class StringCalculator :
             if number <= 1000 :
                 sum += number
         return sum
+
     def substract(numbers):
         parts = numbers.split(';')
         try :
@@ -22,7 +23,7 @@ class StringCalculator :
 
 
     def multiply(numbers):
-            if numbers == "":
-                return 0
-            else:
-                return 5
+        try:
+            return int(numbers)
+        except ValueError :
+            return 0

@@ -31,7 +31,7 @@ class StringCalculator :
         product = None
         for part in parts:
             try:
-                part = int(part)
+                part = float(part)
                 if part > 1000:
                     part = 1  # If the number is greater than 1000, treat as 1 for multiplication
             except ValueError:

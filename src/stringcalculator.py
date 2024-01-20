@@ -33,7 +33,7 @@ class StringCalculator :
             try:
                 part = float(part)
             except ValueError:
-                part = 1  # Treat non-numeric values as 1 for multiplication
+                part = 1
             if product is None:
                 product = part
             else:

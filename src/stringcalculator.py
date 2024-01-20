@@ -28,10 +28,14 @@ class StringCalculator :
 
     def multiply(numbers):
         parts = numbers.split(';')
-        try :
-            mult = int(parts[0])
-        except ValueError :
-            mult = 0
-        for part in parts[1:] :
-            mult = int(mult) * int(part)
-        return mult
+        product = None
+        for part in parts:
+            try:
+                part = float(part)
+            except ValueError:
+                part = 1  # Treat non-numeric values as 1 for multiplication
+            if product is None:
+                product = part
+            else:
+                product = product * part
+        return product

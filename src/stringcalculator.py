@@ -26,9 +26,12 @@ class StringCalculator :
                 sub = sub - part
         return sub
 
-
     def multiply(numbers):
-            if numbers == "":
-                return 0
-            else:
-                return 5
+        parts = numbers.split(';')
+        try :
+            mult = int(parts[0])
+        except ValueError :
+            mult = 0
+        for part in parts[1:] :
+            mult = int(mult) * int(part)
+        return mult

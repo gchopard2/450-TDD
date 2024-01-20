@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="294915e9-10cf-427f-ad69-cd1982c6eb4f" name="Changes" comment="B -  test multiply 7 and 8 return 56" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="exo-1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZWfQ7QYlZMd6HIWt358UmFeahl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="294915e9-10cf-427f-ad69-cd1982c6eb4f" name="Changes" comment="" />
+      <created>1702542738678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702542738678</updated>
+      <workItem from="1702542744474" duration="675000" />
+      <workItem from="1703145263777" duration="2484000" />
+      <workItem from="1704960090667" duration="2105000" />
+      <workItem from="1705391242970" duration="3195000" />
+      <workItem from="1705565269750" duration="1527000" />
+      <workItem from="1705712726889" duration="1062000" />
+    </task>
+    <task id="LOCAL-00001" summary="R - implementation (multiply) que vide return 0">
+      <created>1703146820723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703146820723</updated>
+    </task>
+    <task id="LOCAL-00002" summary="G - test (multiplication) return 0 returns 0 NICE">
+      <created>1703147092408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703147092408</updated>
+    </task>
+    <task id="LOCAL-00003" summary="R - (multiply) test return 5">
+      <created>1703147579367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703147579367</updated>
+    </task>
+    <task id="LOCAL-00004" summary="G - (multiply) test return 5">
+      <created>1703147656878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703147656878</updated>
+    </task>
+    <task id="LOCAL-00005" summary="R - test multiply 7 et 8 return 56">
+      <created>1705392176204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705392176204</updated>
+    </task>
+    <task id="LOCAL-00006" summary="G -  test multiply 7 and 8 return 56">
+      <created>1705392982231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705392982231</updated>
+    </task>
+    <task id="LOCAL-00007" summary="B -  test multiply 7 and 8 return 56">
+      <created>1705393540074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705393540074</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="R - implementation (multiply) que vide return 0" />
+    <MESSAGE value="G - test (multiplication) return 0 returns 0 NICE" />
+    <MESSAGE value="R - (multiply) test return 5" />
+    <MESSAGE value="G - (multiply) test return 5" />
+    <MESSAGE value="R - test multiply 7 et 8 return 56" />
+    <MESSAGE value="G -  test multiply 7 and 8 return 56" />
+    <MESSAGE value="B -  test multiply 7 and 8 return 56" />
+    <option name="LAST_COMMIT_MESSAGE" value="B -  test multiply 7 and 8 return 56" />
+  </component>
+</project>
